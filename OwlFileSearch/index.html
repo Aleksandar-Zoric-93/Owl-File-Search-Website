@@ -1,329 +1,681 @@
-<!DOCTYPE HTML>
-<!--
-	Overflow by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-	<head>
-		<title>Owl File Search</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
-	</head>
-	<body>
+<!DOCTYPE html>
+<!--[if IE 8 ]><html class="no-js oldie ie8" lang="en"> <![endif]-->
+<!--[if IE 9 ]><html class="no-js oldie ie9" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html class="no-js" lang="en"> <!--<![endif]-->
+<head>
 
-		<!-- Header -->
-			<section id="header">
-				<header>
-                     <img src="images/owl.png" alt="" />
-					<h1>Owl File Search</h1>
-					<p>All your files in one place</p>                 
-				</header>
-				<footer>
-					<a href="#banner" class="button style2 scrolly-middle">Overview</a>
-				</footer>
-			</section>
+   <!--- basic page needs
+   ================================================== -->
+   <meta charset="utf-8">
+	<title>Owl File Search</title>
+	<meta name="description" content="">  
+	<meta name="author" content="">
 
-		<!-- Banner -->
-			<section id="banner">
-				<header>
-					<h2>Overview</h2>
-				</header>
-				<p>Never lose files you are working on again<br>
-                With Owl File Search you can save the location of your file and access it anytime<br>
-                Features that will make your everyday experience easier
-                </p>
-				<footer>
-					<a href="#first" class="button style2 scrolly">Features</a>
-				</footer>
-			</section>
+   <!-- mobile specific metas
+   ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-		<!-- Feature 1 -->
-			<article id="first" class="container box style1 right">
-				<a href="#" class="image fit"><img src="images/search.png" alt="" /></a>
-				<div class="inner">
-					<header>
-						<h2>Search</h2>
-					</header>
-					<p>Search for any file using our fast and efficent system.  You can search a single directory or decide to search multiple directories at once.  
-                        Do you want to open the file with your default program or just open the file location? The option is here.</p>
-				</div>
-			</article>
+ 	<!-- CSS
+   ================================================== -->
+   <link rel="stylesheet" href="css/base.css">  
+   <link rel="stylesheet" href="css/main.css">
+   <link rel="stylesheet" href="css/vendor.css">   
+   <link rel="stylesheet" href="css/style.css">   
 
-		<!-- Feature 2 -->
-			<article class="container box style1 left">
-				<a href="#" class="image fit"><img src="images/works.png" alt="" /></a>
-				<div class="inner">
-					<header>
-						<h2>Works</h2>
-					</header>
-					<p>Never lose the files you are working on again.  With Owl File Search you can add any file to your Works list and access it at anytime.  
-                        Are you finished working on the file? Just delete it from the list.  Do you want to delete it from your computer also? The option is here.</p>
-				</div>				
-			</article>
-        
-        <!-- Feature 3 -->
-			<article id="first" class="container box style1 right">
-				<a href="#" class="image fit"><img src="images/clipboard.png" alt="" /></a>
-				<div class="inner">
-					<header>
-						<h2>Favorites</h2>
-					</header>
-					<p>With our Favorites feature you can add any file to your list of favorites and access it anytime.  
-                        No more wondering where you saved that file you are looking for, Owl File Search gives you all the file information you will need.</p>
-				</div>
-			</article>
+   <!-- script
+   ================================================== -->
+	<script src="js/modernizr.js"></script>
 
-		<!-- Portfolio -->
-			<article class="container box style2">
-				<header>
-					<h2>FEATURES</h2>
-					<p>Single or Multi Directory Search<br />
-					Export files to .CSV .TXT .RTF or .DOC<br />
-                    Open File in Default Program or File Location<br />
-                    Show or Hide File Information<br />
-                    Search by Partial Name or by File Extension<br />
-                    Add Files to Works and Favorites<br />
-                    Search all Files in a Directory <br />
-                    Fast and Efficent Search System</p>
-				</header>
-                
-                <header>
-					<h2>SPECIFICATIONS</h2>
-					<p><b>Operating System</b><br />
-					Windows 7, 8, 10 <br /><br />
-                    <b>Prerequisites</b><br />
-                    Microsoft .NET Framework<br /><br />
-                    <b>Hard Disk Space</b><br />
-                    500 Kb</p>
-				</header>
-                                
-				<div class="inner gallery">
-					<div class="row 0%">
-						<div class="3u 12u(mobile)"><a href="images/fulls/01.png" class="image fit"><img src="images/thumbs/01.png" alt="" title="Home Screen" /></a></div>
-						<div class="3u 12u(mobile)"><a href="images/fulls/02.png" class="image fit"><img src="images/thumbs/02.png" alt="" title="Setting Screen" /></a></div>
-						<div class="3u 12u(mobile)"><a href="images/fulls/03.png" class="image fit"><img src="images/thumbs/03.png" alt="" title="Export Enabled" /></a></div>
-						<div class="3u 12u(mobile)"><a href="images/fulls/04.png" class="image fit"><img src="images/thumbs/04.png" alt="" title="Export and Multi Search Enabled" /></a></div>
-					</div>
-					<div class="row 0%">
-						<div class="3u 12u(mobile)"><a href="images/fulls/05.png" class="image fit"><img src="images/thumbs/05.png" alt="" title="Directory Search" /></a></div>
-						<div class="3u 12u(mobile)"><a href="images/fulls/06.png" class="image fit"><img src="images/thumbs/06.png" alt="" title="View Works." /></a></div>
-						<div class="3u 12u(mobile)"><a href="images/fulls/07.png" class="image fit"><img src="images/thumbs/07.png" alt="" title="View Favorites" /></a></div>
-						<div class="3u 12u(mobile)"><a href="images/fulls/08.png" class="image fit"><img src="images/thumbs/08.png" alt="" title="Directory Search with File Information" /></a></div>
-					</div>
-				</div>
-                <footer>
-					<a href="#DownloadHere" class="button style2 scrolly">Coming Soon</a>
-				</footer>
-			</article>
+   <!-- favicons
+	================================================== -->
+	<link rel="icon" type="image/png" href="favicon.png">
 
-		<!-- Contact -->
-			<article class="container box style3">
-				<header>
-					<h2>CONTACT US</h2>
-					<p>We will send our owl to respond</p>
-				</header>
-				<form method="post" action="#">
-					<div class="row 50%">
-						<div class="6u 12u$(mobile)"><input type="text" class="text" name="name" placeholder="Name" /></div>
-						<div class="6u$ 12u$(mobile)"><input type="text" class="text" name="email" placeholder="Email" /></div>
-						<div class="12u$">
-							<textarea name="message" placeholder="Message"></textarea>
-						</div>
-						<div class="12u$">
-							<ul class="actions">
-								<li><input type="submit" value="Send Message" /></li>
-							</ul>
-						</div>
-					</div>
-				</form>
-			</article>
+</head>
 
-		<!-- Generic -->
-		<!--
-			<article class="container box style3">
-				<header>
-					<h2>Generic Box</h2>
-					<p>Just a generic box. Nothing to see here.</p>
-				</header>
-				<section>
-					<header>
-						<h3>Paragraph</h3>
-						<p>This is a subtitle</p>
-					</header>
-					<p>Phasellus nisl nisl, varius id <sup>porttitor sed pellentesque</sup> ac orci. Pellentesque
-					habitant <strong>strong</strong> tristique <b>bold</b> et netus <i>italic</i> malesuada <em>emphasized</em> ac turpis egestas. Morbi
-					leo suscipit ut. Praesent <sub>id turpis vitae</sub> turpis pretium ultricies. Vestibulum sit
-					amet risus elit.</p>
-				</section>
-				<section>
-					<header>
-						<h3>Blockquote</h3>
-					</header>
-					<blockquote>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget.
-					tempus euismod. Vestibulum ante ipsum primis in faucibus.</blockquote>
-				</section>
-				<section>
-					<header>
-						<h3>Divider</h3>
-					</header>
-					<p>Donec consectetur <a href="#">vestibulum dolor et pulvinar</a>. Etiam vel felis enim, at viverra
-					ligula. Ut porttitor sagittis lorem, quis eleifend nisi ornare vel. Praesent nec orci
-					facilisis leo magna. Cras sit amet urna eros, id egestas urna. Quisque aliquam
-					tempus euismod. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
-					posuere cubilia.</p>
-					<hr />
-					<p>Donec consectetur vestibulum dolor et pulvinar. Etiam vel felis enim, at viverra
-					ligula. Ut porttitor sagittis lorem, quis eleifend nisi ornare vel. Praesent nec orci
-					facilisis leo magna. Cras sit amet urna eros, id egestas urna. Quisque aliquam
-					tempus euismod. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
-					posuere cubilia.</p>
-				</section>
-				<section>
-					<header>
-						<h3>Unordered List</h3>
-					</header>
-					<ul class="default">
-						<li>Donec consectetur vestibulum dolor et pulvinar. Etiam vel felis enim, at viverra ligula. Ut porttitor sagittis lorem, quis eleifend nisi ornare vel.</li>
-						<li>Donec consectetur vestibulum dolor et pulvinar. Etiam vel felis enim, at viverra ligula. Ut porttitor sagittis lorem, quis eleifend nisi ornare vel.</li>
-						<li>Donec consectetur vestibulum dolor et pulvinar. Etiam vel felis enim, at viverra ligula. Ut porttitor sagittis lorem, quis eleifend nisi ornare vel.</li>
-						<li>Donec consectetur vestibulum dolor et pulvinar. Etiam vel felis enim, at viverra ligula. Ut porttitor sagittis lorem, quis eleifend nisi ornare vel.</li>
-					</ul>
-				</section>
-				<section>
-					<header>
-						<h3>Ordered List</h3>
-					</header>
-					<ol class="default">
-						<li>Donec consectetur vestibulum dolor et pulvinar. Etiam vel felis enim, at viverra ligula. Ut porttitor sagittis lorem, quis eleifend nisi ornare vel.</li>
-						<li>Donec consectetur vestibulum dolor et pulvinar. Etiam vel felis enim, at viverra ligula. Ut porttitor sagittis lorem, quis eleifend nisi ornare vel.</li>
-						<li>Donec consectetur vestibulum dolor et pulvinar. Etiam vel felis enim, at viverra ligula. Ut porttitor sagittis lorem, quis eleifend nisi ornare vel.</li>
-						<li>Donec consectetur vestibulum dolor et pulvinar. Etiam vel felis enim, at viverra ligula. Ut porttitor sagittis lorem, quis eleifend nisi ornare vel.</li>
-					</ol>
-				</section>
-				<section>
-					<header>
-						<h3>Table</h3>
-					</header>
-					<div class="table-wrapper">
-						<table class="default">
-							<thead>
-								<tr>
-									<th>ID</th>
-									<th>Name</th>
-									<th>Description</th>
-									<th>Price</th>
-								</tr>
-							</thead>
-							<tbody>
-								<tr>
-									<td>45815</td>
-									<td>Something</td>
-									<td>Ut porttitor sagittis lorem quis nisi ornare.</td>
-									<td>29.99</td>
-								</tr>
-								<tr>
-									<td>24524</td>
-									<td>Nothing</td>
-									<td>Ut porttitor sagittis lorem quis nisi ornare.</td>
-									<td>19.99</td>
-								</tr>
-								<tr>
-									<td>45815</td>
-									<td>Something</td>
-									<td>Ut porttitor sagittis lorem quis nisi ornare.</td>
-									<td>29.99</td>
-								</tr>
-								<tr>
-									<td>24524</td>
-									<td>Nothing</td>
-									<td>Ut porttitor sagittis lorem quis nisi ornare.</td>
-									<td>19.99</td>
-								</tr>
-							</tbody>
-							<tfoot>
-								<tr>
-									<td colspan="3"></td>
-									<td>100.00</td>
-								</tr>
-							</tfoot>
-						</table>
-					</div>
-				</section>
-				<section>
-					<header>
-						<h3>Form</h3>
-					</header>
-					<form method="post" action="#">
-						<div class="row">
-							<div class="6u">
-								<input class="text" type="text" name="name" id="name" value="" placeholder="John Doe" />
-							</div>
-							<div class="6u">
-								<input class="text" type="text" name="email" id="email" value="" placeholder="johndoe@domain.tld" />
-							</div>
-						</div>
-						<div class="row">
-							<div class="12u">
-								<select name="department" id="department">
-									<option value="">Choose a department</option>
-									<option value="1">Manufacturing</option>
-									<option value="2">Administration</option>
-									<option value="3">Support</option>
-								</select>
-							</div>
-						</div>
-						<div class="row">
-							<div class="12u">
-								<input class="text" type="text" name="subject" id="subject" value="" placeholder="Enter your subject" />
-							</div>
-						</div>
-						<div class="row">
-							<div class="12u">
-								<textarea name="message" id="message" placeholder="Enter your message"></textarea>
-							</div>
-						</div>
-						<div class="row">
-							<div class="12u">
-								<ul class="actions">
-									<li><input type="submit" value="Submit" /></li>
-									<li><input type="reset" class="style3" value="Clear Form" /></li>
-								</ul>
-							</div>
-						</div>
-					</form>
-				</section>
-			</article>
-		-->
+<body id="top">
 
-		<section id="footer">
-			<ul class="icons">
-				<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-				<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-				<li><a href="#" class="icon fa-google-plus"><span class="label">Google+</span></a></li>
-				<li><a href="#" class="icon fa-pinterest"><span class="label">Pinterest</span></a></li>
-				<li><a href="#" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li>
-				<li><a href="#" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
-			</ul>
-			<div class="copyright">
-				<ul class="menu">
-					<li>&copy; Aleksandar Zoric. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li><li>Images by: <a href="https://www.flaticon.com/authors/smashicons">SmashIcons</a> and
-                    <a href="https://www.flaticon.com/authors/freepik"> Freepik</a></li>
+	<!-- header 
+   ================================================== -->
+   <header>
+
+   	<div class="row">
+
+   		<div class="logo">
+	         <a href="index.html">Owl File Search</a>
+	      </div>
+
+	   	<nav id="main-nav-wrap">
+				<ul class="main-navigation">
+					<li class="current"><a class="smoothscroll"  href="#intro" title="">Home</a></li>
+					<li><a class="smoothscroll"  href="#process" title="">Process</a></li>
+					<li><a class="smoothscroll"  href="#features" title="">Features</a></li>
+					<li><a class="smoothscroll"  href="#pricing" title="">Pricing</a></li>
+					<li><a class="smoothscroll"  href="#faq" title="">FAQ</a></li>					
+					<li class="highlight with-sep"><a href="#" title="">Donate</a></li>					
 				</ul>
+			</nav>
+
+			<a class="menu-toggle" href="#"><span>Menu</span></a>
+   		
+   	</div>   	
+   	
+   </header> <!-- /header -->
+
+	<!-- intro section
+   ================================================== -->
+   <section id="intro">
+
+   	<div class="shadow-overlay"></div>
+
+   	<div class="intro-content">
+   		<div class="row">
+
+   			<div class="col-twelve">
+
+	   			<div class='video-link'>
+	   				<a href="#video-popup"><img src="images/play-button.png" alt=""></a>
+	   			</div>
+
+	   			<h5>Owl File Search</h5>
+	   			<h1>Manage your files in one place</h1>
+
+	   			<a class="button stroke smoothscroll" title="">Download</a>
+
+	   		</div>  
+   			
+   		</div>   		 		
+   	</div> 
+
+   	<!-- Modal Popup
+	   ========================================================= -->
+
+      <div id="video-popup" class="popup-modal mfp-hide">
+
+		   <div class="fluid-video-wrapper">
+            <iframe src="http://player.vimeo.com/video/14592941?title=0&amp;byline=0&amp;portrait=0&amp;color=faec09" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> 
+         </div>		     
+
+         <a class="close-popup">Close</a>         
+
+	   </div> <!-- /video-popup -->  	 	
+
+   </section> <!-- /intro -->
+
+
+   <!-- Process Section
+   ================================================== -->
+   <section id="process">  
+
+   	<div class="row section-intro">
+   		<div class="col-twelve with-bottom-line">
+
+   			<h5>Process</h5>
+   			<h1>How it works?</h1>
+
+   			<p class="lead">Never lose files you are working on again <br>
+                            Save the location of your file and access it anytime <br>
+                            Features that will make your everyday experience easier </p>
+
+   		</div>   		
+   	</div>
+
+   	<div class="row process-content">
+
+   		<div class="left-side">
+
+   			<div class="item" data-item="1">
+
+   				<h5>Select a Directory</h5>
+
+   				<p>Select a single directory you want to search your file for or select multiple directories using our multi directory select feature</p>
+   					
+   			</div>
+
+   			<div class="item" data-item="2">
+
+	   			<h5>Search</h5>
+
+	   			<p>Search all files in the selected directory or search for files based on your search criteria</p>
+   					
+   			</div>
+   				
+   		</div> <!-- /left-side -->
+   		
+   		<div class="right-side">
+   				
+   			<div class="item" data-item="3">
+
+   				<h5>Open File</h5>
+
+   				<p>You have the option to open the file in the default program or open the file location.  When a file is selected, all the file information you will need is displayed</p>
+   					
+   			</div>
+
+   			<div class="item" data-item="4">
+
+   				<h5>Add to works or favorites</h5>
+
+   				<p>You can add files to your works or favorites list and access it anytime.  You will never lose track of your files again</p>
+   					
+   			</div>
+
+   		</div> <!-- /right-side -->  
+
+   		<div class="image-part"></div>  			
+
+   	</div> <!-- /process-content --> 
+
+   </section> <!-- /process-->    
+
+
+   <!-- features Section
+   ================================================== -->
+	<section id="features">
+
+		<div class="row section-intro">
+   		<div class="col-twelve with-bottom-line">
+
+   			<h5>Features</h5>
+   			<h1>Great features you'll love.</h1>
+
+   			<p class="lead">Owl File Search is simple.  With features to make your experience easier and if you do not wish to use some features, just disable them and personlise your home screen to display only information you will need.  Make it personal </p>
+
+   		</div>   		
+   	</div>
+
+   	<div class="row features-content">
+
+   		<div class="features-list block-1-3 block-s-1-2 block-tab-full group">
+
+	      	<div class="bgrid feature">	
+
+	      		<span class="icon"><img src="images/search.png" alt=""></span>            
+
+	            <div class="service-content">	
+
+	            	 <h3 class="h05">Single or Multi Directory Search</h3>
+
+		            <p>Search for any file using our fast and efficent system. You can search a single directory or decide to search multiple directories at once. Do you want to open the file with your default program or just open the file location? The option is here.
+	         		</p>
+	         		
+	         	</div> 	         	 
+
+				</div> <!-- /bgrid -->
+
+				<div class="bgrid feature">	
+
+					<span class="icon"><img src="images/export.png" alt=""></span>                          
+
+	            <div class="service-content">	
+	            	<h3 class="h05">Export files to .CSV .TXT .RTF or .DOC</h3>  
+
+		            <p>Large list of files may become difficult to read and manage.  Export your list to any of the file formats above and format it to your liking. This can also be useful if you wish to email the list or just keep a record for yourself.
+	         		</p>
+
+	         		
+	            </div>	                          
+
+			   </div> <!-- /bgrid -->
+
+			   <div class="bgrid feature">
+
+			   <span class="icon"><img src="images/hide.png" alt=""></span>                  
+
+	            <div class="service-content">
+	            	<h3 class="h05">Show or Hide File Information</h3>
+
+		            <p>You may not be interested to see the extra file information.  Just disable it on the setting screen and never see it again.  Extra file information includes date created, date modified and file size. 
+	        			</p> 
+
+	        			
+	            </div> 	            	               
+
+			   </div> <!-- /bgrid -->
+
+				<div class="bgrid feature">
+
+					<span class="icon"><img src="images/open.png" alt=""></span>                  
+
+	            <div class="service-content">
+	            	<h3 class="h05">Open File in Default Program or File Location</h3>
+
+		            <p>To access the file quickly, you can open it in your default program via Owl File Search and begin making your changes.  Do you wish to open folder that the file is contained in? You can do so and we will highlight the selected file for you in the folder.
+	         		</p> 
+
+	         		
+	            </div>                
+
+				</div> <!-- /bgrid -->
+
+			   <div class="bgrid feature">
+
+			   <span class="icon"><img src="images/partialSearch.png" alt=""></span>               
+
+	            <div class="service-content">	
+	            	<h3 class="h05">Search by Partial Name or by File Extension</h3>
+
+		            <p>If you are not sure of the full file name, you can search by the partial file name or by file extension.  If the file exists in the selected directory/ies, Owl File Search will find it.  No need to change settings to enable different searches, just type the file name or file extension in the search box.
+	        			</p> 
+
+	        			
+	            </div>	               
+
+			   </div> <!-- /bgrid -->
+
+			   <div class="bgrid feature">
+
+			   <span class="icon"><img src="images/fast.png" alt=""></span>        	           
+
+	            <div class="service-content">
+	            	 <h3 class="h05">Fast and Efficent Search System</h3>
+
+		            <p>Owl File Search is efficient on how it executes file searches.  It does not waste time to get the information you need.  We have tested Owl File Search to return 20,000+ files in less than 5 seconds.  If you search by giving it a search criteria, it is almost instant. 
+	        			</p> 
+	        			
+	            </div>	               
+
+			   </div> <!-- /bgrid -->
+
+	      </div> <!-- features-list -->
+   		
+   	</div> <!-- features-content -->
+		
+	</section> <!-- /features -->
+	
+
+	<!-- pricing
+   ================================================== -->
+
+   <section id="pricing">
+
+   	<div class="row section-intro">
+   		<div class="col-twelve with-bottom-line">
+
+   			<h5>Media</h5>
+   			<h1>Have Search Your Way.</h1>
+   			
+   		</div>   		
+   	</div>
+       
+       <ul class="slides">
+    <input type="radio" name="radio-btn" id="img-1" checked />
+    <li class="slide-container">
+		<div class="slide">
+			<img src="images/fulls/01.PNG" />
+        </div>
+		<div class="nav">
+			<label for="img-6" class="prev">&#x2039;</label>
+			<label for="img-2" class="next">&#x203a;</label>
+		</div>
+    </li>
+
+    <input type="radio" name="radio-btn" id="img-2" />
+    <li class="slide-container">
+        <div class="slide">
+         <img src="images/fulls/02.PNG" />
+        </div>
+		<div class="nav">
+			<label for="img-1" class="prev">&#x2039;</label>
+			<label for="img-3" class="next">&#x203a;</label>
+		</div>
+    </li>
+
+    <input type="radio" name="radio-btn" id="img-3" />
+    <li class="slide-container">
+        <div class="slide">
+          <img src="images/fulls/03.PNG" />
+        </div>
+		<div class="nav">
+			<label for="img-2" class="prev">&#x2039;</label>
+			<label for="img-4" class="next">&#x203a;</label>
+		</div>
+    </li>
+
+    <input type="radio" name="radio-btn" id="img-4" />
+    <li class="slide-container">
+        <div class="slide">
+         <img src="images/fulls/06.PNG" />
+        </div>
+		<div class="nav">
+			<label for="img-3" class="prev">&#x2039;</label>
+			<label for="img-5" class="next">&#x203a;</label>
+		</div>
+    </li>
+
+    <input type="radio" name="radio-btn" id="img-5" />
+    <li class="slide-container">
+        <div class="slide">
+         <img src="images/fulls/08.PNG" />
+        </div>
+		<div class="nav">
+			<label for="img-4" class="prev">&#x2039;</label>
+			<label for="img-6" class="next">&#x203a;</label>
+		</div>
+    </li>
+
+    <input type="radio" name="radio-btn" id="img-6" />
+    <li class="slide-container">
+        <div class="slide">
+         <img src="images/fulls/07.PNG" />
+        </div>
+		<div class="nav">
+			<label for="img-5" class="prev">&#x2039;</label>
+			<label for="img-1" class="next">&#x203a;</label>
+		</div>
+    </li>
+
+    <li class="nav-dots">
+      <label for="img-1" class="nav-dot" id="img-dot-1"></label>
+      <label for="img-2" class="nav-dot" id="img-dot-2"></label>
+      <label for="img-3" class="nav-dot" id="img-dot-3"></label>
+      <label for="img-4" class="nav-dot" id="img-dot-4"></label>
+      <label for="img-5" class="nav-dot" id="img-dot-5"></label>
+      <label for="img-6" class="nav-dot" id="img-dot-6"></label>
+    </li>
+</ul>  
+   </section> <!-- /pricing --> 
+
+
+   <!-- Testimonials Section
+   ================================================== -->
+   <section id="testimonials">
+
+   	<div class="row">
+   		<div class="col-twelve">
+   			<h2 class="h01">Hear What Are Clients Say.</h2>
+   		</div>   		
+   	</div>   	
+
+      <div class="row flex-container">
+    
+         <div id="testimonial-slider" class="flexslider">
+
+            <ul class="slides">
+
+               <li>
+               	<div class="testimonial-author">
+                    	<img src="images/avatars/avatar-1.jpg" alt="Author image">
+                    	<div class="author-info">
+                    		Steve Jobs
+                    		<span class="position">CEO, Apple.</span>
+                    	</div>
+                  </div>
+
+                  <p>
+                  Your work is going to fill a large part of your life, and the only way to be truly satisfied is
+                  to do what you believe is great work. And the only way to do great work is to love what you do.
+                  If you haven't found it yet, keep looking. Don't settle. As with all matters of the heart, you'll know when you find it.  						
+                  </p>                  
+             	</li> <!-- /slide -->
+
+               <li> 
+
+               	<div class="testimonial-author">
+                    	<img src="images/avatars/avatar-2.jpg" alt="Author image">
+                    	<div class="author-info">
+                    		John Doe
+                    		<span>CEO, ABC Corp.</span>
+                    	</div>
+                  </div> 
+
+                  <p>
+                  This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
+                  Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem
+                  nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris.    
+                  </p>
+                                         
+               </li> <!-- /slide -->
+
+            </ul> <!-- /slides -->
+
+         </div> <!-- /testimonial-slider -->         
+        
+      </div> <!-- /flex-container -->
+
+   </section> <!-- /testimonials -->
+
+
+   <!-- faq
+   ================================================== -->
+   <section id="faq">
+
+   	<div class="row section-intro">
+   		<div class="col-twelve with-bottom-line">
+
+   			<h5>Faq</h5>
+   			<h1>Questions and Answers.</h1>
+
+   			<p class="lead">Lorem ipsum Do commodo in proident enim in dolor cupidatat adipisicing dolore officia nisi aliqua incididunt Ut veniam lorem ipsum Consectetur ut in in eu do.</p>
+
+   		</div>   		
+   	</div>
+
+   	<div class="row faq-content">
+
+   		<div class="q-and-a block-1-2 block-tab-full group">
+
+   			<div class="bgrid">
+
+   				<h3>What are the security features?</h3>
+
+   				<p>Lorem ipsum Id in magna ad culpa dolor eu aute non amet aute ea in consectetur in quis nostrud anim proident dolore in sed et mollit voluptate culpa irure consequat laborum ea sint in mollit adipisicing cupidatat.</p>
+
+   			</div>
+
+   			<div class="bgrid">
+
+   				<h3>How can I update my user profile?</h3>
+
+   				<p>Lorem ipsum Id in magna ad culpa dolor eu aute non amet aute ea in consectetur in quis nostrud anim proident dolore in sed et mollit voluptate culpa irure consequat laborum ea sint in mollit adipisicing cupidatat.</p>
+
+   			</div>
+
+   			<div class="bgrid">
+
+   				<h3>What features are not included in the free version?</h3>
+
+   				<p>Lorem ipsum Id in magna ad culpa dolor eu aute non amet aute ea in consectetur in quis nostrud anim proident dolore in sed et mollit voluptate culpa irure consequat laborum ea sint in mollit adipisicing cupidatat.</p>
+
+   			</div>
+
+   			<div class="bgrid">
+
+   				<h3>Can I upgrade my account from Starter to Premium?</h3>
+
+   				<p>Lorem ipsum Id in magna ad culpa dolor eu aute non amet aute ea in consectetur in quis nostrud anim proident dolore in sed et mollit voluptate culpa irure consequat laborum ea sint in mollit adipisicing cupidatat.</p>
+
+   			</div>
+
+   			<div class="bgrid">
+
+   				<h3>Where can I found all my uploads?</h3>
+
+   				<p>Lorem ipsum Id in magna ad culpa dolor eu aute non amet aute ea in consectetur in quis nostrud anim proident dolore in sed et mollit voluptate culpa irure consequat laborum ea sint in mollit adipisicing cupidatat.</p>
+
+   			</div>
+
+   			<div class="bgrid">
+
+   				<h3>How long can I use the free trial version?</h3>
+
+   				<p>Lorem ipsum Id in magna ad culpa dolor eu aute non amet aute ea in consectetur in quis nostrud anim proident dolore in sed et mollit voluptate culpa irure consequat laborum ea sint in mollit adipisicing cupidatat.</p>
+
+   			</div>
+
+   		</div> <!-- /q-and-a --> 
+   		
+   	</div> <!-- /faq-content --> 
+
+   	<div class="row section-ads">
+
+		   <div class="col-twelve">	
+
+		     	<div class="ad-content">
+
+		     		<h2 class="h01"><a href="http://www.dreamhost.com/r.cgi?287326|STYLESHOUT">Styleshout Recommends Dreamhost.</a></h2>
+
+			      <p class="lead">
+			      Looking for an awesome and reliable webhosting? Try <a href="http://www.dreamhost.com/r.cgi?287326|STYLESHOUT"><span>DreamHost</span></a>.
+					Get <span>$50 off</span> when you sign up with the promocode <span>styleshout</span>. 
+					<!-- Simply type	the promocode in the box labeled “Promo Code” when placing your order. -->					
+					</p>
+
+					<div class="action">
+			         <a class="button large round" href="http://www.dreamhost.com/r.cgi?287326|STYLESHOUT">Sign Up Now</a>
+		        	</div>
+
+		     	</div>			      
+
 			</div>
-		</section>
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/jquery.poptrox.min.js"></script>
-			<script src="assets/js/skel.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-			<script src="assets/js/main.js"></script>
+		</div> <!-- /section-ads --> 
 
-	</body>
+
+   </section> <!-- /faq --> 
+
+   <!-- cta
+   ================================================== -->
+   <section id="cta">
+
+   	<div class="row cta-content">
+
+   		<div class="col-twelve">
+
+   			<h1 class="h01">Get started now. Try Lhander free for 30 days.</h1>
+
+   			<p class="lead">Download the app now. Available on the:</p>
+
+   			<ul class="stores">
+   				<li class="app-store">
+   					<a href="#" class="button round large" title="">
+   						<i class="icon ion-social-apple"></i>App Store
+   					</a>
+   				</li>
+   				<li class="play-store">
+   					<a href="#" class="button round large" title="">
+   						<i class="icon ion-social-android"></i>Play Store</a>
+   					</li>
+   				<li class="windows-store">
+   					<a href="#" class="button round large" title="">
+   						<i class="icon ion-social-windows"></i>Win Store</a>
+   					</li>
+   			</ul>
+
+   		</div>
+
+   	</div> <!-- /cta-content -->
+
+   </section> <!-- /cta -->
+
+
+   <!-- footer
+   ================================================== -->
+   <footer>
+
+   	<div class="footer-main">
+
+   		<div class="row">  
+
+	      	<div class="col-four tab-full mob-full footer-info">            
+
+	          <img src="images/logo.png" alt="">
+
+	            <p>
+		        	1600 Amphitheatre Parkway<br>
+            	Mountain View, CA 94043 US<br>
+		        	info@lhander.com &nbsp; +123-456-789
+		        	</p>
+
+		      </div> <!-- /footer-info -->
+
+	      	<div class="col-two tab-1-3 mob-1-2 site-links">
+
+	      		<h4>Site Links</h4>
+
+	      		<ul>
+	      			<li><a href="#">About Us</a></li>
+						<li><a href="#">Blog</a></li>
+						<li><a href="#">FAQ</a></li>
+						<li><a href="#">Terms</a></li>
+						<li><a href="#">Privacy Policy</a></li>
+					</ul>
+
+	      	</div> <!-- /site-links -->  
+
+	      	<div class="col-two tab-1-3 mob-1-2 social-links">
+
+	      		<h4>Social</h4>
+
+	      		<ul>
+	      			<li><a href="#">Twitter</a></li>
+						<li><a href="#">Facebook</a></li>
+						<li><a href="#">Dribbble</a></li>
+						<li><a href="#">Google+</a></li>
+						<li><a href="#">Skype</a></li>
+					</ul>
+	      	           	
+	      	</div> <!-- /social --> 
+
+	      	<div class="col-four tab-1-3 mob-full footer-subscribe">
+
+	      		<h4>Subscribe</h4>
+
+	      		<p>Keep yourself updated. Subscribe to our newsletter.</p>
+
+	      		<div class="subscribe-form">
+	      	
+	      			<form id="mc-form" class="group" novalidate="true">
+
+							<input type="email" value="" name="dEmail" class="email" id="mc-email" placeholder="type email &amp; hit enter" required=""> 
+	   		
+			   			<input type="submit" name="subscribe" >
+		   	
+		   				<label for="mc-email" class="subscribe-message"></label>
+			
+						</form>
+
+	      		</div>	      		
+	      	           	
+	      	</div> <!-- /subscribe -->         
+
+	      </div> <!-- /row -->
+
+   	</div> <!-- /footer-main -->
+
+
+      <div class="footer-bottom">
+
+      	<div class="row">
+
+      		<div class="col-twelve">
+	      		<div class="copyright">
+		         	<span>© Copyright Aleksandar Zoric 2018.</span> 
+		         	<span>Design by <a href="http://www.styleshout.com/">styleshout</a></span>		 
+                    <span>Icons by <a href="https://www.flaticon.com/authors/freepik">Freepik</a> and <a href="https://www.flaticon.com/authors/smashicons">SmashIcons</a></span>		       
+		         </div>
+
+		         <div id="go-top" style="display: block;">
+		            <a class="smoothscroll" title="Back to Top" href="#top"><i class="icon ion-android-arrow-up"></i></a>
+		         </div>         
+	      	</div>
+
+      	</div> <!-- /footer-bottom -->     	
+
+      </div>
+
+   </footer>  
+
+   <div id="preloader"> 
+    	<div id="loader"></div>
+   </div> 
+
+   <!-- Java Script
+   ================================================== --> 
+   <script src="js/jquery-1.11.3.min.js"></script>
+   <script src="js/jquery-migrate-1.2.1.min.js"></script>
+   <script src="js/plugins.js"></script>
+   <script src="js/main.js"></script>
+
+</body>
+
 </html>

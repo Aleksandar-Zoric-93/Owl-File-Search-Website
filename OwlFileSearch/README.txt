@@ -1,54 +1,128 @@
-Overflow by HTML5 UP
-html5up.net | @ajlkn
-Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+
+==================================================================================================
+
+LHANDER is a modern and minimal landing page site template. I has great features you would 
+absolutely love. The template is mobile and retina ready, has hundreds of webfont icons, has
+mailchimp integration and much more. Lhander has clean code and is very easy to customize. 
+It's the perfect template to showcase your app products and services.
+
+==================================================================================================
 
 
-This is Overflow, a single page responsive site template by me, AJ, for HTML5 UP.
-As you can tell it's a bit unusual (it was inspired by a flowchart I was working
-on a few months back), but I think it'd make for a pretty cool portfolio. Includes
-a pop-up gallery, styling for all basic page elements, a handy configuration
-(see the top of js/init.js), and some experimental stuff I've been messing with
-lately (like the parallax background effect).
+LICENSE:
 
-Demo images* courtesy of the talented, the awesome, THE one and only Felicia Simion,
-a photographer whose works will make your head spin in awe. See more of it here:
+LHANDER is released under the Creative Commons Attribution 3.0 License
+(http://creativecommons.org/licenses/by/3.0/). This means that you are free:
 
-http://ineedchemicalx.deviantart.com/
+   to Share - to copy, distribute, display, and perform the work
+   to Remix - to make derivative works
+   to make commercial use of the work 
 
-(* = Not included! Only meant for use with my own on-site demo, so please do NOT download
-and/or use any of Felicia's work without her explicit permission!)
+Under the following conditions:
 
-AJ
-aj@lkn.io | @ajlkn
+   Attribution - You must attribute the work in the manner specified by the 
+   author or licensor (but not in any way that suggests that they endorse you 
+   or your use of the work). 
 
-PS: Not sure how to get that contact form working? Give formspree.io a try (it's awesome).
+   For any reuse or distribution, you must make clear to others the license 
+   terms of this work
+
+   Any of these conditions can be waived if you get permission from the 
+   copyright holder
+
+Attribution: 
+	
+   You must include a credit link to our website(http://www.Styleshout.com) somewhere on
+   your site. We prefer the footer credit that comes with the template but you are still 
+   free to move it somewhere else.
 
 
-Credits:
+-----------------------------------------------------------------------------------------------------
 
-	Demo images:
-		Felicia Simion (ineedchemicalx.deviantart.com)
-			"Sleepless in Vienna" (ineedchemicalx.deviantart.com/art/Sleepless-in-Vienna-322880007)
-			"Time goes by too fast" (ineedchemicalx.deviantart.com/art/Time-goes-by-too-fast-335982438)
-			"Kingdom of the Wind" (ineedchemicalx.deviantart.com/art/Kingdom-of-the-Wind-348268044)
-			"Ad infinitum" (ineedchemicalx.deviantart.com/art/Ad-infinitum-354203162)
-			"Dressed in Clarity" (ineedchemicalx.deviantart.com/art/Dressed-in-Clarity-331333716)
-			"Raven" (ineedchemicalx.deviantart.com/art/Raven-306468505)
-			"I'll have a cup of Disneyland, please" (ineedchemicalx.deviantart.com/art/I-ll-have-a-cup-of-Disneyland-please-325596442)
-			"Cherish" (ineedchemicalx.deviantart.com/art/Cherish-320041163)
-			"Different." (ineedchemicalx.deviantart.com/art/Different-353708988)
-			"History was made here" (ineedchemicalx.deviantart.com/art/History-was-made-here-366723812)
-			"People come and go and walk away" (ineedchemicalx.deviantart.com/art/People-come-and-go-and-walk-away-284244677)
 
-	Icons:
-		Font Awesome (fortawesome.github.com/Font-Awesome)
+REMOVING THE LINK:
 
-	Other:
-		jQuery (jquery.com)
-		html5shiv.js (@afarkas @jdalton @jon_neal @rem)
-		CSS3 Pie (css3pie.com)
-		background-size polyfill (github.com/louisremi)
-		Respond.js (j.mp/respondjs)
-		jquery.poptrox (@ajlkn)
-		jquery.scrolly (@ajlkn)
-		Skel (skel.io)
+We understand that there are situations where you want to use the template without the 
+crediting obligation. If that's your case, you can always send us a 
+credit removal fee of 10 USD through Paypal. This will allow you to use the 
+template attribution/credit link free on ONE DOMAIN name. 
+
+You can send your payments through Paypal to this address: ealigam@gmail.com
+
+If possible, kindly send us the site's url where the template is being used. 
+Also, keep your Paypal receipt as proof of payment and your good to go.
+
+
+------------------------------------------------------------------------------------------------------ 
+
+
+SUPPORT:
+    
+Since LHANDER is distributed for free, support is not offered. LHANDER is coded according 
+to current web standards and we did our best to make the template easy to use and modify.
+If you have minimum web development experience, you can easily modify the template. 
+However, If you're still new to HTML and CSS, I suggest that you visit the 
+following tutorials:
+
+ - http://tutsplus.com/course/30-days-to-learn-html-and-css/
+ - http://learn.shayhowe.com/html-css/
+
+These will teach you the essentials of HTML and CSS. In addition, if you want to include
+jQuery in your skill-set, you can also check out these tutorials: 
+
+ - http://code.tutsplus.com/courses/30-days-to-learn-jquery
+ - http://try.jquery.com/
+
+
+------------------------------------------------------------------------------------------------------ 
+
+
+GET THE LATEST VERSION:
+
+We update our templates on a regular basis so to make sure that you have the latest version, 
+always download the template files directly at our website(http://www.styleshout.com/)
+
+
+
+-------------------------------------------------------------------------------------------------------
+
+
+SOURCES AND CREDITS:
+
+I've used the following resources as listed.
+
+Fonts:
+ - Montserrat Font (http://www.google.com/fonts/specimen/Montserrat)
+ - Merriweather Font (http://www.google.com/fonts/specimen/Merriweather) 
+ - Raleway Font (https://www.google.com/fonts/specimen/Raleway)
+
+Icons:
+ - Ionicons (http://ionicons.com/)
+ - Micons (http://geticonjar.com/freebies/231-micons/)
+ - Micons webfont generated by ICOMOON (https://icomoon.io/)
+ - Iconmonstr (http://iconmonstr.com/)
+
+Stock Photos and Graphics:
+ - UnSplash.com (http://unsplash.com/)
+ - splitshire.com (http://splitshire.com/)
+ - gratisography.com (http://www.gratisography.com/)
+ - Iphone 6S front and angled views PSD + AI MOCKUP (http://p-px.com/iphone-6s/)
+ 
+Javascript Files:
+
+ - JQuery (http://jquery.com/)
+ - Modernizr (http://modernizr.com/)
+ - Waypoints (http://imakewebthings.com/jquery-waypoints/)
+ - Magnific Popup (http://dimsemenov.com/plugins/magnific-popup/)
+ - jQuery Placeholder (https://github.com/mathiasbynens/jquery-placeholder)
+ - AjaxChimp (https://github.com/scdoshi/jquery-ajaxchimp)
+ - FitVids (http://fitvidsjs.com/)
+
+ 
+
+--------------------------------------------------------------------------------------------------------- 
+
+
+Thanks for downloading from Styleshout :)
+  
+
