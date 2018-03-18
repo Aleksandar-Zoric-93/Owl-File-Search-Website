@@ -2369,4 +2369,17 @@ footer ul li {
 	color: #FFFFFF;
 }
 
+.myButton {
+	background-color:#ffffff;
+	color:#3a3b3d;
+}
+.myButton:hover {
+	background-color:#ffffff;
+    color:#05bca9;
+}
+.myButton:active {
+    background-color:#ffffff;
+	color: #3a3b3d;
+}
+
 /*# sourceMappingURL=main.css.map */
