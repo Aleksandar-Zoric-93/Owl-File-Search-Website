@@ -118,11 +118,5 @@ Javascript Files:
  - AjaxChimp (https://github.com/scdoshi/jquery-ajaxchimp)
  - FitVids (http://fitvidsjs.com/)
 
- 
-
---------------------------------------------------------------------------------------------------------- 
-
-
-Thanks for downloading from Styleshout :)
   
 
